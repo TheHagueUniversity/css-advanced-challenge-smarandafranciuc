@@ -1,0 +1,20 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: black;
+    height: 100%;
+    margin: 0;
+
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.box {
+    background: yellow;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
